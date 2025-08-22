@@ -13,10 +13,22 @@ return new class extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('name')->nullable();
             $table->string('email')->unique();
+            $table->string('address')->nullable();
+            $table->string('password')->nullable();
+            $table->string('mobile_number')->nullable();
+            $table->string('profile_picture')->nullable();
+
+            $table->timestamp('change_password')->nullable();
+            $table->timestamp('first_time_login')->nullable(); //When login first time, reset password
             $table->timestamp('email_verified_at')->nullable();
-            $table->string('password');
+
+            $table->integer('trashed_by')->nullable();
+            $table->integer('deleted_by')->nullable();
+            $table->timestamp('deleted_at')->nullable();
+            $table->enum('status', ['Y', 'N', 'R'])->default('Y');
+
             $table->rememberToken();
             $table->timestamps();
         });
