@@ -89,8 +89,8 @@
                 </ul>
             </li>
 
-            <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
-                        class="icon icon-plug"></i><span class="nav-text">Plugins</span></a>
+            <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i class="icon icon-plug"></i><span
+                        class="nav-text">Plugins</span></a>
                 <ul aria-expanded="false">
                     <li><a href="./uc-select2.html">Select 2</a></li>
                     <li><a href="./uc-nestable.html">Nestedable</a></li>
@@ -103,8 +103,8 @@
             <li><a href="widget-basic.html" aria-expanded="false"><i class="icon icon-globe-2"></i><span
                         class="nav-text">Widget</span></a></li>
             <li class="nav-label">Forms</li>
-            <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
-                        class="icon icon-form"></i><span class="nav-text">Forms</span></a>
+            <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i class="icon icon-form"></i><span
+                        class="nav-text">Forms</span></a>
                 <ul aria-expanded="false">
                     <li><a href="./form-element.html">Form Elements</a></li>
                     <li><a href="./form-wizard.html">Wizard</a></li>
@@ -122,7 +122,15 @@
                 </ul>
             </li>
 
-            <li class="nav-label">Extra</li>
+            <li class="nav-label">External</li>
+            <li>
+                <a href="{{ route('frontend.homepage') }}" aria-expanded="false" target="_blank">
+                    <i class="icon icon-globe-2"></i>
+                    <span class="nav-text">Home Page</span>
+                </a>
+            </li>
+
+
             <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
                         class="icon icon-single-copy-06"></i><span class="nav-text">Pages</span></a>
                 <ul aria-expanded="false">
