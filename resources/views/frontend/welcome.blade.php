@@ -1236,6 +1236,11 @@
                     </nav>
                 </header>
 
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3603.8741771954756!2d51.33911!3d25.409022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDI0JzMyLjUiTiA1McKwMjAnMjAuOCJF!5e0!3m2!1sen!2sqa!4v1755853921211!5m2!1sen!2sqa"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
                 <main class="mt-6">
                     <div class="grid gap-6 lg:grid-cols-2 lg:gap-8">
                         <a href="https://laravel.com/docs" id="docs-card"
